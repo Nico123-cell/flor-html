@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te lo prometí</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 3rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        svg {
+            width: 200px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Te lo prometí</h1>
+    <svg viewBox="0 0 200 400">
+        <!-- Tallo -->
+        <rect x="90" y="150" width="10" height="200" fill="#69b578" />
+        
+        <!-- Hoja -->
+        <path d="M100 200 Q150 180 160 250 Q150 250 100 240 Q90 250 80 260 Q100 220 100 200 Z" fill="#69b578" />
+        
+        <!-- Pétalos -->
+        <circle cx="100" cy="120" r="10" fill="#654321" />
+        <circle cx="100" cy="80" r="35" fill="#ffdd57" />
+        <circle cx="65" cy="110" r="35" fill="#ffdd57" />
+        <circle cx="135" cy="110" r="35" fill="#ffdd57" />
+        <circle cx="70" cy="150" r="35" fill="#ffdd57" />
+        <circle cx="130" cy="150" r="35" fill="#ffdd57" />
+    </svg>
+
+    <!-- Agregar audio -->
+    <audio controls>
+        <source src="audio.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>
